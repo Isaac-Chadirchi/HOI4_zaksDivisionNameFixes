@@ -3,6 +3,8 @@
 # NOTES: This file overwrites the vanilla version.
 # TODO: this
 
+### INFANTRY ###
+
 # Infantry Divisions
 ENG_INF_01 = {
     # Changes: 
