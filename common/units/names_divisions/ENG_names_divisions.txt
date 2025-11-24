@@ -6,9 +6,9 @@
 # Infantry Divisions
 ENG_INF_01 = {
     # Changes: 
-    # -reordered into numerial order
+    # -reordered into numerical order
     # -filled in missing divisions
-    # -list trimmed to 120 divsions
+    # -list trimmed to 120 divisions
     # -Guards Infantry Division removed (doesn't fit with a numbered list)
     # -11th (East African) Division removed (banished to the colonies)
     # -12th (West African) Division removed (banished to the colonies)
