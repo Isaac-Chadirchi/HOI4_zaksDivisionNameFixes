@@ -148,3 +148,85 @@ ENG_INF_01 = {
         120 = { "%dth Infantry Division"}
     }
 }
+
+#Infantry Brigades
+ENG_INF_02 = {
+    # Changes:
+    # -list trimmed to 24 divisions
+
+    # Preamble
+    name = "Infantry Brigade"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "infantry" } # Specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d Infantry Brigade"
+    ordered = {
+        1 = { "%dst Infantry Brigade" }
+        2 = { "%dnd Infantry Brigade" }
+        3 = { "%drd Infantry Brigade" }
+        4 = { "%dth Infantry Brigade" }
+        5 = { "%dth Infantry Brigade" }
+        6 = { "%dth Infantry Brigade" }
+        7 = { "%dth Infantry Brigade" }
+        8 = { "%dth Infantry Brigade" }
+        9 = { "%dth Infantry Brigade" }
+        10 = { "%dth Infantry Brigade" }
+        11 = { "%dth Infantry Brigade" }
+        12 = { "%dth Infantry Brigade" }
+        13 = { "%dth Infantry Brigade" }
+        14 = { "%dth Infantry Brigade" }
+        15 = { "%dth Infantry Brigade" }
+        16 = { "%dth Infantry Brigade" }
+        17 = { "%dth Infantry Brigade" }
+        18 = { "%dth Infantry Brigade" }
+        19 = { "%dth Infantry Brigade" }
+        20 = { "%dth Infantry Brigade" }
+        21 = { "%dst Infantry Brigade" }
+        22 = { "%dnd Infantry Brigade" }
+        23 = { "%drd Infantry Brigade" }
+        24 = { "%dth Infantry Brigade" }
+    }
+}
+
+#Light Infantry Divisions
+ENG_INF_03 = {
+    # Changes:
+    # -list trimmed to 24 divisions
+
+    # Preamble
+    name = "Light Division"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "infantry" "mechanized" } # Specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d (Light) Division"
+    ordered = {
+        1 = { "%dst (Light) Division" }
+        2 = { "%dnd (Light) Division" }
+        3 = { "%drd (Light) Division" }
+        4 = { "%dth (Light) Division" }
+        5 = { "%dth (Light) Division" }
+        6 = { "%dth (Light) Division" }
+        7 = { "%dth (Light) Division" }
+        8 = { "%dth (Light) Division" }
+        9 = { "%dth (Light) Division" }
+        10 = { "%dth (Light) Division" }
+        11 = { "%dth (Light) Division" }
+        12 = { "%dth (Light) Division" }
+        13 = { "%dth (Light) Division" }
+        14 = { "%dth (Light) Division" }
+        15 = { "%dth (Light) Division" }
+        16 = { "%dth (Light) Division" }
+        17 = { "%dth (Light) Division" }
+        18 = { "%dth (Light) Division" }
+        19 = { "%dth (Light) Division" }
+        20 = { "%dth (Light) Division" }
+        21 = { "%dst (Light) Division" }
+        22 = { "%dnd (Light) Division" }
+        23 = { "%drd (Light) Division" }
+        24 = { "%dth (Light) Division" }
+    }
+}
