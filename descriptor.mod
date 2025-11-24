@@ -1,4 +1,4 @@
-version="v0.1"
+version="0.1"
 tags={
 	"Fixes"
 	"Military"
@@ -6,4 +6,4 @@ tags={
 	"Historical"
 }
 name="Zak's Division Name Fixes"
-supported_version="1.17.0"
+supported_version="1.17.*"
