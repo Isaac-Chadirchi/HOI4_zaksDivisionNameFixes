@@ -1197,3 +1197,114 @@ ENG_MNT_02 = {
         24 = { "%dth Gurkha Division" }
     }
 }
+
+########## MISC ##########
+
+# Garrison Divisions
+ENG_GAR_01 = {
+    # Changes:
+    # -reordered list
+    # -added new fictional county divisions
+    # -dropped generic division names
+
+    # Preamble
+    name = "Garrison Division"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "infantry" } # specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d Garrison Division"
+    ordered = {
+        1 = { "Devon & Cornwall County Division" } # Historical Divisions
+        2 = { "Dorset County Division" }
+        3 = { "Durham & North Riding County Division" }
+        4 = { "West Sussex County Division" }
+        5 = { "Hampshire County Division" }
+        6 = { "Lincolnshire County Division" }
+        7 = { "Norfolk County Division" }
+        8 = { "Northumberland County Division" }
+        9 = { "Yorkshire County Division" }
+        10 = { "Essex County Division" }
+        11 = { "East Sussex County Division" } # Fictional Divisions - English Counties
+        12 = { "Cumberland County Division"}
+        13 = { "Westmorland County Division" }
+        14 = { "Lancashire County Division" }
+        15 = { "Cheshire County Division" }
+        16 = { "Shropshire County Division" }
+        17 = { "Staffordshire County Division" }
+        18 = { "Derbyshire County Division" }
+        19 = { "Nottinghamshire County Division" }
+        20 = { "Leicestershire & Rutland County Division" }
+        21 = { "Warwickshire County Division" }
+        22 = { "Worcestershire County Division" }
+        23 = { "Herefordshire County Division" }
+        24 = { "Gloucestershire County Division" }
+        25 = { "Oxfordshire County Division"}
+        26 = { "Northamptonshire County Division" }
+        27 = { "Huntingdonshire County Division" }
+        28 = { "Cambridgeshire County Division" }
+        29 = { "Suffolk County Division" }
+        30 = { "Hertfordshire County Division" }
+        31 = { "Bedfordshire County Division" }
+        32 = { "Buckinghamshire County Division" }
+        33 = { "London & Middlesex County Division" }
+        34 = { "Kent County Division" }
+        35 = { "Surrey County Division" }
+        36 = { "Berkshire County Division" }
+        37 = { "Wiltshire County Division" }
+        38 = { "Somerset County Division" }
+        39 = { "Caithness County Division" } # Fictional Divisions - Scottish Counties
+        40 = { "Sutherland County Division" }
+        41 = { "Ross and Cromarty County Division" }
+        42 = { "Inverness County Division" }
+        43 = { "Nairnshire County Division" }
+        44 = { "Moray County Division" }
+        45 = { "Banffshire County Division" }
+        46 = { "Aberdeenshire County Division" }
+        47 = { "Kincardineshire County Division" }
+        48 = { "Angus County Division" }
+        49 = { "Perthshire County Division" }
+        50 = { "Argyll County Division" }
+        51 = { "Buteshire County Division" }
+        52 = { "Ayrshire County Division" }
+        53 = { "Renfrewshire County Division" }
+        54 = { "Dunbartonshire County Division" }
+        55 = { "Stirlingshire County Division" }
+        56 = { "Clackmannanshire County Division" }
+        57 = { "Kinross County Division" }
+        58 = { "Fifeshire County Division" }
+        59 = { "East Lothian County Division" }
+        60 = { "West Lothian County Division" }
+        61 = { "Midlothian County Division" }
+        62 = { "Lanarkshire County Division" }
+        63 = { "Peeblesshire County Division" }
+        64 = { "Selkirkshire County Division" }
+        65 = { "Berwickshire County Division" }
+        66 = { "Roxburghshire County Division" }
+        67 = { "Dumfriesshire County Division" }
+        68 = { "Kirkcudbrightshire County Division" }
+        69 = { "Wigtownshire County Division" }
+        70 = { "Shetland County Division" }
+        71 = { "Orkney County Division" }
+        72 = { "Monmouthshire County Division" } # Fictional Divisions - Welsh Counties
+        73 = { "Glamorganshire County Division" }
+        74 = { "Carmarthenshire County Division" }
+        75 = { "Pembrokeshire County Division" }
+        76 = { "Cardiganshire County Division" }
+        77 = { "Brecknockshire County Division" }
+        78 = { "Radnorshire County Division" }
+        79 = { "Montgomeryshire County Division" }
+        80 = { "Denbighshire County Division" }
+        81 = { "Flintshire County Division" }
+        82 = { "Merionethshire County Division" }
+        83 = { "Caernarfonshire County Division" }
+        84 = { "Anglesey County Division" }
+        85 = { "Antrim County Division" } # Fictional Divisions - Northern Irish Counties
+        86 = { "Armagh County Division" }
+        87 = { "Down County Division" }
+        88 = { "Fermanagh County Division" }
+        89 = { "Londonderry County Division" } # British name for Derry
+        90 = { "Tyrone County Division" }
+    }
+}
