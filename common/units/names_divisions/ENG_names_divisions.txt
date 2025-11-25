@@ -1308,3 +1308,136 @@ ENG_GAR_01 = {
         90 = { "Tyrone County Division" }
     }
 }
+
+# Colonial Divisions
+ENG_COL_01 = {
+    # Changes:
+    # -decoupled from infantry divisions
+    # -reordered names
+    # -rifles and colonials changed to divisions
+    # -fallback name changed
+    # -added missing african divisions
+    # -list expanded to 120 divisions
+    # Note: very a-historical
+
+    # Preamble
+    name = "Colonial Division"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "infantry" } # specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d (Colonial) Division"
+    ordered = {
+        1 = { "%dst (African) Division" }
+        2 = { "%dnd (African) Division" }
+        3 = { "%drd (1st Sudanese) Division" }
+        4 = { "%dth (2nd Sudanese) Division" }
+        5 = { "%dth (3rd Sudanese) Division" }
+        6 = { "%dth (1st Ugandan) Division" }
+        7 = { "%dth (2nd Ugandan) Division" }
+        8 = { "%dth (1st Kenyan) Division" }
+        9 = { "%dth (2nd Kenyan) Division" }
+        10 = { "%dth (African) Division" } # based on 11th (african) division
+        11 = { "%dth (East Africa) Division" }
+        12 = { "%dth (West Africa) Division" }
+        13 = { "%dth (SDF) Division" } # based on 12th division (SDF)
+        14 = { "%dth (1st Tanzanian) Division" }
+        15 = { "%dth (2nd Tanzanian) Division" }
+        16 = { "%dth (1st King's African Rifles) Division" }
+        17 = { "%dth (2nd King's African Rifles) Division" }
+        18 = { "%dth (3rd King's African Rifles) Division" }
+        19 = { "%dth (4th King's African Rifles) Division" }
+        20 = { "%dth (5th King's African Rifles) Division" }
+        21 = { "%dst (6th King's African Rifles) Division" }
+        22 = { "%dnd (7th King's African Rifles) Division" }
+        23 = { "%drd (8th King's African Rifles) Division" }
+        24 = { "%dth (9th King's African Rifles) Division" }
+        25 = { "%dth (10th King's African Rifles) Division" }
+        26 = { "%dth (3rd Kenyan) Division" }
+        27 = { "%dth (4th Kenyan) Division" }
+        28 = { "%dth (5th Kenyan) Division" }
+        29 = { "%dth (4th Sudanese) Division" }
+        30 = { "%dth (5th Sudanese) Division" }
+        31 = { "%dst (3rd Ugandan) Division" }
+        32 = { "%dnd (4th Ugandan) Division" }
+        33 = { "%drd (3rd Tanzanian) Division" }
+        34 = { "%dth (4th Tanzanian) Division" }
+        35 = { "%dth (11th King's African Rifles) Division" }
+        36 = { "%dth (12th King's African Rifles) Division" }
+        37 = { "%dth (13th King's African Rifles) Division" }
+        38 = { "%dth (14th King's African Rifles) Division" }
+        39 = { "%dth (15th King's African Rifles) Division" }
+        40 = { "%dth (Colonial) Division" }
+        41 = { "%dst (Colonial) Division" }
+        42 = { "%dnd (Colonial) Division" }
+        43 = { "%drd (Colonial) Division" }
+        44 = { "%dth (Colonial) Division" }
+        45 = { "%dth (Colonial) Division" }
+        46 = { "%dth (Colonial) Division" }
+        47 = { "%dth (Colonial) Division" }
+        48 = { "%dth (Colonial) Division" }
+        49 = { "%dth (Colonial) Division" }
+        50 = { "%dth (Colonial) Division" }
+        61 = { "%dst (Colonial) Division" }
+        62 = { "%dnd (Colonial) Division" }
+        63 = { "%drd (Colonial) Division" }
+        64 = { "%dth (Colonial) Division" }
+        65 = { "%dth (Colonial) Division" }
+        66 = { "%dth (Colonial) Division" }
+        67 = { "%dth (Colonial) Division" }
+        68 = { "%dth (Colonial) Division" }
+        69 = { "%dth (Colonial) Division" }
+        70 = { "%dth (Colonial) Division" }
+        71 = { "%dst (Colonial) Division" }
+        72 = { "%dnd (Colonial) Division" }
+        73 = { "%drd (Colonial) Division" }
+        74 = { "%dth (Colonial) Division" }
+        75 = { "%dth (Colonial) Division" }
+        76 = { "%dth (Colonial) Division" }
+        77 = { "%dth (Colonial) Division" }
+        78 = { "%dth (Colonial) Division" }
+        79 = { "%dth (Colonial) Division" }
+        80 = { "%dth (Colonial) Division" }
+        81 = { "%dst (West Africa) Division" }
+        82 = { "%dnd (West Africa) Division" }
+        83 = { "%drd (African) Division" }
+        84 = { "%dth (African) Division" }
+        85 = { "%dth (African) Division" }
+        86 = { "%dth (African) Division" }
+        87 = { "%dth (African) Division" }
+        88 = { "%dth (African) Division" }
+        89 = { "%dth (African) Division" }
+        90 = { "%dth (Colonial) Division" }
+        91 = { "%dst (Colonial) Division" }
+        92 = { "%dnd (Colonial) Division" }
+        93 = { "%drd (Colonial) Division" }
+        94 = { "%dth (Colonial) Division" }
+        95 = { "%dth (Colonial) Division" }
+        96 = { "%dth (Colonial) Division" }
+        97 = { "%dth (Colonial) Division" }
+        98 = { "%dth (Colonial) Division" }
+        99 = { "%dth (Colonial) Division" }
+        100 = { "%dth (Colonial) Division" }
+        101 = { "%dst (Colonial) Division" }
+        102 = { "%dnd (Colonial) Division" }
+        103 = { "%drd (Colonial) Division" }
+        104 = { "%dth (Colonial) Division" }
+        105 = { "%dth (Colonial) Division" }
+        106 = { "%dth (Colonial) Division" }
+        107 = { "%dth (Colonial) Division" }
+        108 = { "%dth (Colonial) Division" }
+        109 = { "%dth (Colonial) Division" }
+        110 = { "%dth (Colonial) Division" }
+        111 = { "%dst (Colonial) Division" }
+        112 = { "%dnd (Colonial) Division" }
+        113 = { "%drd (Colonial) Division" }
+        114 = { "%dth (Colonial) Division" }
+        115 = { "%dth (Colonial) Division" }
+        116 = { "%dth (Colonial) Division" }
+        117 = { "%dth (Colonial) Division" }
+        118 = { "%dth (Colonial) Division" }
+        119 = { "%dth (Colonial) Division" }
+        120 = { "%dth (Colonial) Division" }
+    }
+}
