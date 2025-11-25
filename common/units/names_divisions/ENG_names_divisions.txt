@@ -1446,3 +1446,43 @@ ENG_COL_01 = {
     }
 }
 
+# Anti-Aircraft Divisions
+ENG_AIR_01 = {
+    # Changes:
+    # -list trimmed to 24 divisions
+
+    # Preamble
+    name = "Anti-Aircraft Division"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "infantry" } # specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d Anti-Aircraft Division"
+    ordered = {
+        1 = { "%dst Anti-Aircraft Division" }
+        2 = { "%dnd Anti-Aircraft Division" }
+        3 = { "%drd Anti-Aircraft Division" }
+        4 = { "%dth Anti-Aircraft Division" }
+        5 = { "%dth Anti-Aircraft Division" }
+        6 = { "%dth Anti-Aircraft Division" }
+        7 = { "%dth Anti-Aircraft Division" }
+        8 = { "%dth Anti-Aircraft Division" }
+        9 = { "%dth Anti-Aircraft Division" }
+        10 = { "%dth Anti-Aircraft Division" }
+        11 = { "%dth Anti-Aircraft Division" }
+        12 = { "%dth Anti-Aircraft Division" }
+        13 = { "%dth Anti-Aircraft Division" }
+        14 = { "%dth Anti-Aircraft Division" }
+        15 = { "%dth Anti-Aircraft Division" }
+        16 = { "%dth Anti-Aircraft Division" }
+        17 = { "%dth Anti-Aircraft Division" }
+        18 = { "%dth Anti-Aircraft Division" }
+        19 = { "%dth Anti-Aircraft Division" }
+        20 = { "%dth Anti-Aircraft Division" }
+        21 = { "%dst Anti-Aircraft Division" }
+        22 = { "%dnd Anti-Aircraft Division" }
+        23 = { "%drd Anti-Aircraft Division" }
+        24 = { "%dth Anti-Aircraft Division" }
+    }
+}
