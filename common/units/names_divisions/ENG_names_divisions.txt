@@ -965,3 +965,46 @@ ENG_PAR_02 = {
     }
 }
 
+########## MARINE ##########
+
+# Royal Marines Divisions
+ENG_MAR_01 = {
+    # Changes:
+    # -list trimmed to 24 divisions 
+
+    # Preamble
+    name = "Royal Marines Division"
+    for_countries = { ENG } # only usable by the United Kingdom
+    can_use = { always = yes } # default namelist, so always available
+    division_types = { "marine" } # specifies AI usage of namelist
+
+    # Namelist
+    fallback_name = "%d Royal Marines Division"
+    ordered = {
+        1 = { "%dst Royal Marines Division" }
+        2 = { "%dnd Royal Marines Division" }
+        3 = { "%drd Royal Marines Division" }
+        4 = { "%dth Royal Marines Division" }
+        5 = { "%dth Royal Marines Division" }
+        6 = { "%dth Royal Marines Division" }
+        7 = { "%dth Royal Marines Division" }
+        8 = { "%dth Royal Marines Division" }
+        9 = { "%dth Royal Marines Division" }
+        10 = { "%dth Royal Marines Division" }
+        11 = { "%dth Royal Marines Division" }
+        12 = { "%dth Royal Marines Division" }
+        13 = { "%dth Royal Marines Division" }
+        14 = { "%dth Royal Marines Division" }
+        15 = { "%dth Royal Marines Division" }
+        16 = { "%dth Royal Marines Division" }
+        17 = { "%dth Royal Marines Division" }
+        18 = { "%dth Royal Marines Division" }
+        19 = { "%dth Royal Marines Division" }
+        20 = { "%dth Royal Marines Division" }
+        21 = { "%dst Royal Marines Division" }
+        22 = { "%dnd Royal Marines Division" }
+        23 = { "%drd Royal Marines Division" }
+        24 = { "%dth Royal Marines Division" }
+    }
+}
+
