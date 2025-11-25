@@ -1323,7 +1323,11 @@ ENG_COL_01 = {
     # Preamble
     name = "Colonial Division"
     for_countries = { ENG } # only usable by the United Kingdom
-    can_use = { always = yes } # default namelist, so always available
+    can_use = {
+        NOT = {
+            has_completed_focus = ENG_decolonization
+        }
+    }
     division_types = { "infantry" } # specifies AI usage of namelist
 
     # Namelist
@@ -1441,3 +1445,4 @@ ENG_COL_01 = {
         120 = { "%dth (Colonial) Division" }
     }
 }
+
