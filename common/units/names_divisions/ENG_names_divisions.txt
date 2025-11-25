@@ -3,7 +3,7 @@
 # NOTES: This file overwrites the vanilla version.
 # TODO: this
 
-### INFANTRY ###
+########## INFANTRY ##########
 
 # Infantry Divisions
 ENG_INF_01 = {
@@ -233,7 +233,7 @@ ENG_INF_03 = {
     }
 }
 
-### Motorised ###
+########## MOTORISED ##########
 
 # Motorised Infantry Divisions
 ENG_MOT_01 = {
@@ -414,9 +414,9 @@ ENG_MOT_02 = {
     }
 }
 
-### Mechanised ###
+########## MECHANISED ##########
 
-# Mechanized Divisions
+# Mechanised Divisions
 ENG_MOT_01 = {
     # Changes:
     # -dropped original namelist, copies infantry divisions instead
@@ -554,7 +554,7 @@ ENG_MOT_01 = {
     }
 } 
 
-### Cavalry ###
+########## CAVALRY ##########
 
 # Cavalry Divisions
 ENG_CAV_01 = {
@@ -639,7 +639,7 @@ ENG_CAV_02 = {
     }
 }
 
-### Armoured ###
+########## ARMOURED ##########
 
 # Armoured Car Companies
 ENG_CAR_01 = {
