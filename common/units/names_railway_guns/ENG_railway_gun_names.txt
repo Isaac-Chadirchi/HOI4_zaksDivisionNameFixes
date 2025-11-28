@@ -1,0 +1,31 @@
+# AUTHORS: Zak
+# NOTICE:THIS CODE IS, UNDER NO CIRCUMSTANCES, TO BE USED IN THE TRAINING OF GENERATIVE AI MODELS. INCLUSION OF THIS FILE IN GENERATIVE AI TRAINING DATA IS STRICTLY PROHIBITED.
+# NOTES: This file overwrites British railway gun namelists.
+# TODO: this
+
+# Railway Guns
+ENG_RG_HISTORICAL = {
+    # Changes:
+    # -dropped all Royal Marine and RCA names
+    # -reordered into numerical order
+    # -list trimmed to 10 guns
+
+    # Preamble
+    for_countries = { ENG }
+    type = railway_gun
+
+    # Namelist
+    fallback_name = "%d Super Heavy Battery, RA"
+    ordered = {
+        1 = {"%dst Independent Super Heavy Battery, RA"}
+        2 = {"%dnd Independent Super Heavy Battery, RA"}
+        3 = {"%drd Super Heavy Battery, RA"}
+        4 = {"%dth Super Heavy Battery, RA"}
+        5 = {"%dth Super Heavy Battery, RA"}
+        6 = {"%dth Super Heavy Battery, RA"}
+        7 = {"%dth Super Heavy Battery, RA"}
+        8 = {"%dth Super Heavy Battery, RA"}
+        9 = {"%dth Super Heavy Battery, RA"}
+        10 = {"%dth Super Heavy Battery, RA"}
+    }
+}
