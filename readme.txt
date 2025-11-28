@@ -5,7 +5,7 @@
 ./ /__| (_| |   <  \__ \ | |/ /| |\ V /| \__ \ | (_) | | | | | |\  | (_| | | | | | |  __/ | |   | |>  <  __/\__ \
 \_____/\__,_|_|\_\ |___/ |___/ |_| \_/ |_|___/_|\___/|_| |_| \_| \_/\__,_|_| |_| |_|\___| \_|   |_/_/\_\___||___/
 
-Current Mod Version: 0.1
+Current Mod Version: 0.2
 For game version: 1.17.*
 Author: Zak
 Steam Workshop: TBA
@@ -14,7 +14,7 @@ Repo: https://github.com/Isaac-Chadirchi/HOI4_zaksDivisionNameFixes
 Permissions:    You are permitted to use this mod in the development of other non-commerical products, as long as proper credit is given to the Authors.
                 You are not permitted include this mod in any data collections used for the training of generative AI.
 
-This mod reworks the vanilla division namelists, placing the divisions in numerical order, as well as making some other minor tweaks.
+This mod reworks the vanilla division namelists, placing the divisions in numerical order, as well as making some other minor tweaks such as adding a small handful of new unique names.
 
 Currently included countries:
 United Kingdom
