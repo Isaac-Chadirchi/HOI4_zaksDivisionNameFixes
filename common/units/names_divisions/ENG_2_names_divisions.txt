@@ -8,7 +8,12 @@ ENG_FAS_01 = {
     # Preamble
     name = "Blackshirt Brigade"
     for_countries = { ENG } # only usable by the United Kingdom
-    can_use = { has_government = fascism } # only available for fascism
+    can_use = { # only available for fascism
+        AND = {
+            has_government = fascism
+            has_completed_focus = ENG_organize_the_blackshirts
+        }
+    }
     division_types = { "infantry" } # specifies AI usage of namelist
 
     # Namelist
