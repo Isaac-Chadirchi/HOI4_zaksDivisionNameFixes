@@ -2,13 +2,13 @@
 # Blackshirt Brigades - For Civil War use
 ENG_FAS_01 = {
     # Changes:
-    # -adjusted can_use to make the namelist only available for fascism
+    # -adjusted can_use to make the namelist only available for fascism once the focus "Organise the Blackshirts" has been completed
     # -list trimmed to 24 divisions
 
     # Preamble
     name = "Blackshirt Brigade"
     for_countries = { ENG } # only usable by the United Kingdom
-    can_use = { # only available for fascism
+    can_use = { # only available for fascism once the focus "Organise the Blackshirts" has been completed
         AND = {
             has_government = fascism
             has_completed_focus = ENG_organize_the_blackshirts
@@ -49,13 +49,21 @@ ENG_FAS_01 = {
 # Loyalist Brigades - For Civil War use
 ENG_DEM_01 = {
     # Changes:
-    # -adjusted can_use to make the namelist only available for democratic / non-aligned
+    # -adjusted can_use to make the namelist only available for democratic / non-aligned during a civil war
     # -list trimmed to 24 divisions
 
     # Preamble
     name = "Loyalist Brigade"
     for_countries = { ENG } # only usable by the United Kingdom
-    can_use = { has_government = democratic } # If this doesn't work, I'm going to shoot someone
+    can_use = { # If this doesn't work, I'm going to shoot someone
+        AND = {
+            OR = {
+                has_government = democratic
+                has_government = neutrality
+            }
+            has_civil_war = yes
+        }
+    }
     division_types = { "infantry" } # specifies AI usage of namelist
 
     # Namelist
