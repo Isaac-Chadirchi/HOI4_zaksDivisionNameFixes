@@ -5,7 +5,7 @@
 ./ /__| (_| |   <  \__ \ | |/ /| |\ V /| \__ \ | (_) | | | | | |\  | (_| | | | | | |  __/ | |   | |>  <  __/\__ \
 \_____/\__,_|_|\_\ |___/ |___/ |_| \_/ |_|___/_|\___/|_| |_| \_| \_/\__,_|_| |_| |_|\___| \_|   |_/_/\_\___||___/
 
-Current Mod Version: 0.2.1
+Current Mod Version: 0.3
 For game version: 1.17.*
 Author: Zak
 Steam Workshop: TBA
@@ -18,7 +18,7 @@ This mod reworks the vanilla division namelists, placing the divisions in numeri
 
 Currently included countries:
 United Kingdom
-Germany (Planned)
+Germany
 United States (Planned)
 France (Planned)
 Soviet Union (Planned)
