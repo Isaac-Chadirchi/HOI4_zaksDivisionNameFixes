@@ -3,8 +3,6 @@
 # NOTES: This overwrites the vanilla British infantry namelists.
 # TODO: none
 
-########## INFANTRY ##########
-
 # Infantry Divisions
 ENG_INF_01 = {
     # Changes: 
